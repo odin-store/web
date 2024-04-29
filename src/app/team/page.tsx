@@ -42,25 +42,11 @@ export default function Team() {
           ]}
         />
         <Teammate
-          name="신민성"
-          insta="minsung__25"
-          profile="/assets/teammates/minsung.jpg"
-          fallback="MS"
-          task={["Backend Developer", "Server Maintainer"]}
-        />
-        <Teammate
           name="이준서"
           insta="jse0._yo"
           profile="/assets/teammates/junseo.jpg"
           fallback="JS"
-          task={["Backend Developer", "Clinet Maintainer"]}
-        />
-        <Teammate
-          name="공연택"
-          insta="motden_kong"
-          profile="/assets/teammates/yeontaek.jpg"
-          fallback="YT"
-          task={["Backend Developer", "Updater Maintainer"]}
+          task={["Frontend Developer", "Client Maintainer"]}
         />
         <Teammate
           name="최민호"
@@ -68,6 +54,20 @@ export default function Team() {
           profile="/assets/teammates/minho.jpg"
           fallback="MH"
           task={["Backend Developer", "AI Maintainer"]}
+        />
+        <Teammate
+          name="신민성"
+          insta="minsung__25"
+          profile="/assets/teammates/minsung.jpg"
+          fallback="MS"
+          task={["Backend Developer", "Server Maintainer"]}
+        />
+        <Teammate
+          name="공연택"
+          insta="motden_kong"
+          profile="/assets/teammates/yeontaek.jpg"
+          fallback="YT"
+          task={["Backend Developer", "Updater Maintainer"]}
         />
       </div>
     </main>
