@@ -1,0 +1,61 @@
+.docs-info {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 20px 0;
+  }
+  dt {
+    margin: 10px 0;
+  }
+  p,
+  li {
+    font-size: 12px;
+  }
+  li {
+    &::before {
+      content: "•";
+      margin-right: 10px;
+    }
+    margin: 5px 0;
+    margin-left: 10px;
+  }
+  padding: 40px;
+  padding-top: 20px;
+}
+.blank {
+  height: 20px;
+}
+
+dd {
+  margin-left: 10px;
+  padding: 0;
+}
+
+ol {
+  li::before {
+    font-size: 12px;
+  }
+}
+
+.license-korean {
+  a {
+    text-decoration: none;
+  }
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

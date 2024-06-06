@@ -61,7 +61,7 @@ export default function Footer() {
             </Link>
             <Link
               className="font-extralight text-sm transition-opacity opacity-50 hover:opacity-100"
-              href={"mailTo:admin@damie.works"}
+              href={"mailTo:admin@odinus.shop"}
             >
               이메일
             </Link>
@@ -76,19 +76,19 @@ export default function Footer() {
             <h5 className="mb-3 font-extrabold">법적 고지</h5>
             <Link
               className="font-extralight text-sm transition-opacity opacity-50 hover:opacity-100"
-              href={"/"}
+              href={"/docs/term-of-services"}
             >
               서비스 이용 약관
             </Link>
             <Link
               className="font-extralight text-sm transition-opacity opacity-50 hover:opacity-100"
-              href={"/"}
+              href={"/docs/privacy"}
             >
               개인정보 처리방침
             </Link>
             <Link
               className="font-extralight text-sm transition-opacity opacity-50 hover:opacity-100"
-              href={"/"}
+              href={"/docs/license"}
             >
               라이선스
             </Link>

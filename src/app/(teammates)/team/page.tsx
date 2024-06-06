@@ -32,6 +32,7 @@ export default function Team() {
         <Teammate
           name="이규연"
           insta="ekal_.index"
+          url="damie.works"
           profile="/assets/teammates/leegyuyeon.jpg"
           fallback="GY"
           task={[

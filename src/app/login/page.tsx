@@ -1,10 +1,10 @@
 import { ModeToggle } from "@/components/global/darkmode-toggle";
-import { Button } from "@/components/ui/button";
 import backgrond from "$/assets/login/background.png";
-import Image from "next/image";
+import backgrondWhite from "$/assets/login/background_white.png";
 import React from "react";
 import LoginForm from "@/components/login/form";
 import Link from "next/link";
+import ThemeImage from "@/components/global/theme-image";
 
 export default function Home() {
   return (
@@ -14,12 +14,13 @@ export default function Home() {
       </div>
       <div className="flex w-[100%] h-[100vh] relative z-10">
         <div className="hidden lg:block  flex-1 relative h-[100vh]">
-          <Image
+          <ThemeImage
             className="z-20 h-[100vh] object-center object-cover drag-none"
-            src={backgrond}
+            light={backgrondWhite}
+            dark={backgrond}
             alt="login-background"
           />
-          <div className="z-30 text-white absolute left-20 bottom-20">
+          <div className="z-30 absolute left-20 bottom-20">
             <p>
               오딘은 항상 최고의 사용자 경험을 제공하기 위해 노력하고 있어요
             </p>

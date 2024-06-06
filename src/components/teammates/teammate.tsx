@@ -2,10 +2,18 @@
 
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "../ui/button";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "../ui/hover-card";
 
 export default function Teammate(props: {
   name: string;
   profile: string;
+  url?: string;
   fallback: string;
   insta: string;
   task: string[];
@@ -22,7 +30,29 @@ export default function Teammate(props: {
           <p className="text-xs mb-2 text-muted-foreground">@{props.insta}</p>
         </Link>
         <div className="space-y-2 w-[100%]">
-          <div className="text-sm text-muted-foreground break-keep px-5">
+          <div className="text-sm text-muted-foreground break-keep px-5 mt-5">
+            {props.url ? (
+              <HoverCard>
+                <HoverCardTrigger>
+                  <Link
+                    href={`https://${props.url}/`}
+                    target="_blank"
+                    className={cn(
+                      buttonVariants({
+                        class: "w-[100%]",
+                      })
+                    )}
+                  >
+                    {props.url}
+                  </Link>
+                </HoverCardTrigger>
+                <HoverCardContent>
+                  <p className="text-sm">클릭 시 해당 페이지로 이동해요!</p>
+                </HoverCardContent>
+              </HoverCard>
+            ) : (
+              <></>
+            )}
             {props.task.map((task, i) => {
               return (
                 <div

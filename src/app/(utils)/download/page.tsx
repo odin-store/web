@@ -53,7 +53,7 @@ export default function Download() {
                     개인정보처리방침
                   </Link>
                   과{" "}
-                  <Link href={"/docs/privacy"} className="underline">
+                  <Link href={"/docs/term-of-services"} className="underline">
                     서비스 이용약관
                   </Link>
                   에 <br />

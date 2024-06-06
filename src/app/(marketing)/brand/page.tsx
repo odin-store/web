@@ -126,7 +126,7 @@ export default function Brand() {
             <p>HSL(0, 0%, 3%)</p>
             <p>HWB(0, 3%, 96%)</p>
           </div>
-          <div className="bg-[#F7C14C] text-black border-[1px] p-10 rounded-lg mt-5 border-[#080808] dark:border-white">
+          <div className="selection:bg-[#08080838] bg-[#F7C14C] text-black border-[1px] p-10 rounded-lg mt-5 border-[#080808] dark:border-white">
             <h3 className="font-extrabold">골드</h3>
             <p>#F7C14C</p>
             <p>RGB(247, 193, 76)</p>
