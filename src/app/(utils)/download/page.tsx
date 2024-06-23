@@ -63,7 +63,10 @@ export default function Download() {
               <AlertDialogFooter>
                 <AlertDialogCancel>Cancel</AlertDialogCancel>
                 <AlertDialogAction>
-                  <a href="/assets/download/capture.png" download="capture">
+                  <a
+                    href="/bundles/Odin Launcher_1.0.0_x64.msi"
+                    download="Odin Launcher_1.0.0_x64.msi"
+                  >
                     Download
                   </a>
                 </AlertDialogAction>

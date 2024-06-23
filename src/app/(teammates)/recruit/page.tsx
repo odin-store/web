@@ -44,7 +44,10 @@ export default function Recruit() {
               채용 알림을 받으실 수 있어요!
             </p>
           </div>
-          <Link href="/login" className={cn(buttonVariants({ size: "lg" }))}>
+          <Link
+            href="https://projectodin.substack.com/about"
+            className={cn(buttonVariants({ size: "lg" }))}
+          >
             채용 알림 받기
           </Link>
         </div>

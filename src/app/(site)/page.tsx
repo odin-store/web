@@ -18,7 +18,7 @@ export default function Home() {
       <div className="relative h-[700px] flex overflow-hidden">
         <div className="w-[100%] h-[80%] flex flex-col items-center justify-center z-10">
           <Link
-            href={"/"}
+            href={"https://discord.gg/CyxZjp4dfk"}
             className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium"
             target="_blank"
           >
@@ -101,9 +101,9 @@ export default function Home() {
                 />
               </svg>
               <div className="space-y-2">
-                <h3 className="font-bold">Low Fees</h3>
+                <h3 className="font-bold">Cheap Price</h3>
                 <p className="text-sm text-muted-foreground break-keep">
-                  운영에 필요한 최소한의 수수료만 요구해요.
+                  운영에 필요한 최소한의 수수료만 요구하기에 더욱 저렴해요.
                 </p>
               </div>
             </div>

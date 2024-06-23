@@ -6,7 +6,6 @@ import { buttonVariants } from "@/components/ui/button";
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableFooter,
   TableHead,
@@ -95,16 +94,31 @@ export default function Price() {
         </TableHeader>
         <TableBody>
           <TableRow>
-            <TableCell className="font-medium">Free</TableCell>
-            <TableCell>Paid</TableCell>
-            <TableCell>Credit Card</TableCell>
+            <TableCell className="font-medium">게임 구매 및 관리</TableCell>
+            <TableCell>O</TableCell>
+            <TableCell>O</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell className="font-medium">무제한 런처 이용</TableCell>
+            <TableCell>O</TableCell>
+            <TableCell>O</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell className="font-medium">무료 게임 제공</TableCell>
+            <TableCell>X</TableCell>
+            <TableCell>O</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell className="font-medium">특별 할인</TableCell>
+            <TableCell>X</TableCell>
+            <TableCell>O</TableCell>
           </TableRow>
         </TableBody>
         <TableFooter>
           <TableRow>
             <TableHead className="w-[30%]">Total</TableHead>
-            <TableHead className="w-[35%]">Free</TableHead>
-            <TableHead className="w-[35%]">Pro</TableHead>
+            <TableHead className="w-[35%]">$10 이상 가치</TableHead>
+            <TableHead className="w-[35%]">$50 이상 가치</TableHead>
           </TableRow>
         </TableFooter>
       </Table>

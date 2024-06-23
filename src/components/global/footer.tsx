@@ -67,7 +67,7 @@ export default function Footer() {
             </Link>
             <Link
               className="font-extralight text-sm transition-opacity opacity-50 hover:opacity-100"
-              href={"/"}
+              href={"/report?type=copyright"}
             >
               저작권 침해 신고
             </Link>
