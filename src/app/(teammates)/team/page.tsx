@@ -42,7 +42,7 @@ export default function Team() {
             "Server Maintainer",
           ]}
         />
-        {/* <Teammate
+        <Teammate
           name="이준서"
           insta="jse0._yo"
           profile="/assets/teammates/junseo.jpg"
@@ -69,7 +69,7 @@ export default function Team() {
           profile="/assets/teammates/yeontaek.jpg"
           fallback="YT"
           task={["Backend Developer", "Updater Maintainer"]}
-        /> */}
+        />
       </div>
     </main>
   );
